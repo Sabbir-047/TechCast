@@ -1,6 +1,34 @@
 * {
     font-family: "Inter", sans-serif;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
+
+/* shared styles */
+
+.radiant-title {
+    background-image: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 42%, rgba(145, 0, 248, 1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.radiant-btn {
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    color: white;
+    line-height: 1.2rem;
+}
+
+
+/* navbar styles */
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* responsive design */
