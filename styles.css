@@ -69,24 +69,25 @@
 @media screen and (max-width:576px) {
     .banner-container {
         padding: 2.5rem 0rem;
+        background-image: url('./Image.png');
     }
 
     .img-1 {
         width: 12.5rem;
         margin-left: 0rem;
-        margin-top: 4rem
+        margin-top: 1rem
     }
 
     .img-2 {
         width: 2.92rem;
-        top: 48%;
+        top: 40%;
         left: 38%;
     }
 
     .hero-badge {
         position: absolute;
-        left: 60%;
-        bottom: 55%;
+        left: 70%;
+        bottom: 65%;
     }
 }
 
