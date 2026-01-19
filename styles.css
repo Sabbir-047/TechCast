@@ -19,10 +19,45 @@
 
 
 /* navbar styles */
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: white;
     font-weight: 500;
+}
+
+
+/* banner styles */
+.banner-container {
+    background-image: url('./assets/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0rem;
+}
+
+.banner-img img {
+    max-width: 100%;
+}
+
+.img-1 {
+    margin-top: 0rem;
+    position: relative;
+}
+
+.img-2 {
+    position: absolute;
+    left: 33%;
+    bottom: 25%;
+}
+
+.hero-badge {
+    position: absolute;
+    left: 70%;
+    bottom: 85%;
+}
+
+.banner-info {
+    max-width: 34.38rem;
 }
 
 
@@ -30,5 +65,32 @@
 
 
 
-
 /* responsive design */
+@media screen and (max-width:576px) {
+    .banner-container {
+        padding: 2.5rem 0rem;
+    }
+
+    .img-1 {
+        width: 12.5rem;
+        margin-left: 0rem;
+        margin-top: 4rem
+    }
+
+    .img-2 {
+        width: 2.92rem;
+        top: 48%;
+        left: 38%;
+    }
+
+    .hero-badge {
+        position: absolute;
+        left: 60%;
+        bottom: 55%;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:576px) and (max-width:992px) {}
+
+/* large device */
