@@ -54,14 +54,20 @@
     position: absolute;
     left: 70%;
     bottom: 85%;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 }
 
 .banner-info {
     max-width: 34.38rem;
 }
 
-
-
+/* footer section */
+footer {
+    background-image: url('./assets/footer-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -88,6 +94,10 @@
         position: absolute;
         left: 70%;
         bottom: 65%;
+    }
+
+    footer {
+        background-image: url('./footer-sm.png');
     }
 }
 
