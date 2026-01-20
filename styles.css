@@ -66,9 +66,13 @@ button {
     max-width: 100%;
 }
 
+.banner-img-container{
+    position: relative;
+}
+
 .img-1 {
     margin-top: -2rem;
-    position: relative;
+    /* position: relative; */
     width: 25.88rem;
 }
 
@@ -114,14 +118,14 @@ footer {
 
     .img-2 {
         width: 2.92rem;
-        top: 40%;
+        top: 32%;
         left: 38%;
     }
 
     .hero-badge {
         position: absolute;
-        left: 70%;
-        bottom: 65%;
+        left: 65%;
+        bottom: 80%;
     }
 
     footer {
